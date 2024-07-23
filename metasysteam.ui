@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>metasysteamClass</class>
+ <widget class="QWidget" name="metasysteamClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>302</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>metasysteam</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="boy">
+       <property name="text">
+        <string>boy age</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="boy_age">
+       <property name="value">
+        <number>14</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="add_boy">
+       <property name="text">
+        <string>add boy one year old</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="get_information">
+       <property name="text">
+        <string>show meta object</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="girl">
+       <property name="text">
+        <string>girl age</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="girl_age">
+       <property name="value">
+        <number>14</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="add_girl">
+       <property name="text">
+        <string>add girl one year old</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="clear">
+       <property name="text">
+        <string>clear text</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPlainTextEdit" name="show_text"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="metasysteam.qrc"/>
+ </resources>
+ <connections/>
+</ui>
